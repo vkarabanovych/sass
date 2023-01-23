@@ -55,8 +55,8 @@ table {
 header {
   display: flex;
   display: block;
+  display: inline-block;
   position: relative;
-  position: absolute;
   width: 1980px;
   height: 1056.5px;
 }
@@ -140,33 +140,34 @@ nav > button:hover {
 }
 
 .home-info {
-  width: 579px;
-  height: 534px;
-  left: 330px;
-  top: 295px;
-}
-.home-info .home-info-gtext {
   position: absolute;
   width: 507px;
   height: 140px;
   left: 330px;
   top: 295px;
-  font-family: "Roboto";
+}
+.home-info_ > h1 {
+  position: absolute;
+  width: 507px;
+  height: 140px;
+  left: 330px;
+  top: 295px;
+  font-family: "$font-r";
   font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
+  font-size: 24pt;
+  font-weight: 900px;
   line-height: 70px;
   /* or 97% */
   text-transform: uppercase;
   color: #3B668D;
 }
-.home-info .home-info-gtext .home-info-h {
+.home-info_ > h1_ > h2 {
   position: absolute;
-  width: 579px;
-  height: 36px;
+  width: 507px;
+  height: 140px;
   left: 330px;
-  top: 444px;
-  font-family: Montserrat;
+  top: 295px;
+  font-family: "$font-m";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -175,4 +176,33 @@ nav > button:hover {
   letter-spacing: 0.905em;
   text-transform: uppercase;
   color: #3B668D;
+}
+.home-info_ > h1_ > h3 {
+  position: absolute;
+  width: 459px;
+  height: 41px;
+  left: 330px;
+  top: 559px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 156%;
+  /* identical to box height, or 41px */
+  text-transform: uppercase;
+  color: #3B668D;
+}
+.home-info_ > h1_ > p {
+  display: flex;
+  left: 330px;
+  top: 613px;
+  padding-right: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  /* or 28px */
+  letter-spacing: 0.075em;
+  color: #2B4964;
 }/*# sourceMappingURL=main.css.map */
